@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background: rgb(214, 214, 214);
+  flex-direction: column;
+}
+
+.color {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.camera-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.color-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px;
+  /* width: 100px; */
+  height: 100px;
+}
+
+.lense-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+
+.lense {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-lense {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+h3 {
+  margin-right: 230px;
+  margin-bottom: 10px;
+}
